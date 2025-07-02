@@ -403,7 +403,7 @@ pshGitAddress=$(TMP=${pshWholeGitAddress#*@};echo ${TMP%:*})
 
 We store the value returned from the Git command as `pshWholeGitAddress`. Then in the next line, we run it through
 **two** parameter substitutions:
-test2
+test3
 ```bash {filename="Terminal"}
 TMP=${pshWholeGitAddress#*@}
 ${TMP%:*}
